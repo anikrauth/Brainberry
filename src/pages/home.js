@@ -35,19 +35,38 @@ export default function Home() {
             {/* elevateCosma */}
             <Pricing />
             {/* contact us end */}
-            <div className="ContactUs">
-                <div className="row container m-auto text-center">
-                    <div className="col-lg-8">
-                        <div className="ContactUsContent">
-                            <h1>Start your journey with us now</h1>
-                            <p>Contact us for more information</p>
+            <section class="py-9">
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-4">
+                            <div class="icon icon-shape icon-md bg-gradient-warning shadow-warning mx-auto text-center mb-4">
+                                <i class="material-icons opacity-10">person</i>
+                            </div>
+                            <h3>Subscribe</h3>
+                            <p>This is the paragraph where you can write more details about your product.</p>
                         </div>
                     </div>
-                    <div className="col-lg-4">
-                        <Link to="/contact"><a className="getStarted">Contact us</a></Link>
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-lg-6">
+                            <form method="" action="">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <div class="input-group input-group-outline">
+                                            <label class="form-label">Your Email...</label>
+                                            <input class="form-control" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 ps-0">
+                                        <button type="button" class="btn bg-gradient-warning w-100">Subscribe</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
+
             {/* contact us end */}
             {/* Blog start */}
             <div className="BlogWraper">

@@ -61,7 +61,7 @@ export default function Footer() {
                     <ul className='text-center d-flex justify-content-center align-items-stretch'>
                         <li><Link to="https://about.crunchbase.com/terms-of-service/">Terms of services</Link></li>
                         <li><Link to="https://about.crunchbase.com/terms-of-service/privacy-policy/">Privacy Policy</Link></li>
-                        <li><Link to="https://about.crunchbase.com/terms-of-service/">Site map</Link></li>
+                        <li><Link to="https://www.crunchbase.com/sitemap">Site map</Link></li>
                         <li><p>© 2021 BrainBerry Ltd. All Rights Reserved. </p></li>
                     </ul>
                 </div>
