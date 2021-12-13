@@ -1,0 +1,58 @@
+.serviceswrap{
+padding: 120px 0px; 
+background: #f1f1f1f1;
+}
+.servicesTitle{
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--primary-color);
+    padding-bottom: 60px;
+}
+.servicesCard{
+    padding: 20px 10px;
+    height: 400px;
+}
+
+.borderOne{
+    border-bottom: 3px solid var(--border-color-one);
+}
+.borderTwo{
+    border-bottom:3px solid var(--border-color-Two);
+}
+.borderThree{
+    border-bottom: 3px solid var(--border-color-Three);
+}
+.borderFour{
+    border-bottom: 3px solid var(--border-color-Four);
+}
+
+.card-title{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--primary-color);
+    padding-bottom: 15px;
+}
+
+.card-text{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 30px;
+}
+
+.servicesBtn{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--border-color-one);
+    border: 1px solid var(--border-color-one);
+    background: transparent;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+.servicesBtn:hover{
+    color: var(--sceondary-color);
+    background: var(--border-color-one);
+}

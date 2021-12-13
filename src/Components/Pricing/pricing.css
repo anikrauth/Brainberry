@@ -1,0 +1,61 @@
+.PricingWrap{
+    padding:   120px 0px;
+}
+.pricingCard{
+    border-top: 3px solid var(--border-color-Two);
+}
+.pricingCardTwo{
+    border: 1px solid var(--border-color-one);
+    border-top: 3px solid var(--border-color-one);
+}
+.pricingCardThree{
+    border-top: 3px solid var(--border-color-Three);
+}
+.pricingTitle{
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--primary-color);
+    padding-bottom: 60px;
+}
+
+.subBtn {
+    border-radius: 4px;
+    padding: 25px;
+    width: 200px;
+    margin: 0 auto;
+    color: var(--sceondary-color);
+}
+
+.pricingHeadBtnBgOne{
+    background: var(--border-color-Two);
+}
+.pricingHeadBtnBgTwo{
+    background: var(--border-color-one);
+}
+.pricingHeadBtnBgThree{
+    background: var(--border-color-Three);
+}
+.list-group-item {
+    padding: 1.2rem 1rem;
+}
+.pricing-btn-info{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background: transparent;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+.pricing-btn-info-One{
+    color: var(--border-color-Two);
+    border: 2px solid var(--border-color-Two);
+}
+.pricing-btn-info-Two{
+    color: var(--border-color-one);
+    border: 2px solid var(--border-color-one);
+}
+.pricing-btn-info-Three{
+    color: var(--border-color-Three);
+    border: 2px solid var(--border-color-Three);
+}

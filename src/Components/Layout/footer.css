@@ -1,0 +1,55 @@
+.footerWrap{
+    background: var(--primary-color);
+    padding-top: 80px;
+    padding-bottom: 20px;
+
+}
+
+.footerItem>h1{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--sceondary-color);
+}
+
+.footerItem>ul{
+    padding-top: 20px;
+    padding-left: 0 !important;
+}
+
+.footerItem>ul>li>a{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--sceondary-color);
+    line-height: 38px;
+}
+
+
+.followTitle{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--sceondary-color);
+    padding-top: 20px;
+}
+
+.socialList>li>a{
+
+}
+.copyRight{
+    padding-top: 60px;
+}
+.copyRight>ul>li{
+    padding: 10px;
+}
+.copyRight>ul>li>a{
+    font-size: 15px;
+    color: var(--sceondary-color);
+    text-transform: capitalize;
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+}
+.copyRight>ul>li>p{
+    color: #fff;
+    font-size: 16px;
+}

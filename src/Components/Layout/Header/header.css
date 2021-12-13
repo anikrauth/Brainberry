@@ -1,0 +1,56 @@
+.bg-custom{
+    background: var(--primary-color);
+}
+.ml-20{
+    margin-left: 20px;
+}
+.navbar-dark .navbar-brand {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cartIcon{
+    font-size: 22px;
+    color: var(--sceondary-color);
+}
+.barContent{
+    font-size: 22px;
+    color: var(--sceondary-color);
+}
+
+.customBtn{
+    padding: 10px 20px;
+    background: var(--sceondary-color);
+    border: 1px solid var(--sceondary-color);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: var(--primary-color);
+}
+.form-control{
+    border-color: rgba(255,255,255,.55) !important;
+    background-color: transparent;
+    color: var(--sceondary-color) !important;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: transparent;
+    border-color: unset;
+    outline: 0;
+    box-shadow: unset;
+}
+.form-control::placeholder {
+    color: rgba(255,255,255,.55) !important;
+}
+.csCustomBtn{
+    background:#f34123 !important ;
+    padding: 10px 20px;
+    color: var(--sceondary-color);
+    border-radius: 4px;
+    border: 1px solid #f34123;
+}
+.csCustomBtn:hover{
+    color: var(--primary-color);
+}
+li.nav-item {
+    padding: 6px 10px;
+}

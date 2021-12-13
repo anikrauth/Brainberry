@@ -1,0 +1,22 @@
+.featuredSection{
+    padding: 120px 0px;
+    margin: auto;
+}
+.featuredSectionContent{
+    padding-left: 30px;
+}
+.featuredSectionContent>h1{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 42px;
+    padding-bottom: 20px;
+}
+.featuredSectionContent>p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 30px;
+}
+.video{
+    width: 100% !important;
+}
